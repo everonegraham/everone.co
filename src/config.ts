@@ -48,10 +48,4 @@ export const SOCIALS: SocialObjects = [
     linkTitle: `${SITE.title} on Twitter`,
     active: true,
   },
-  {
-    name: "Pinterest",
-    href: "https://www.pinterest.com/everonegraham",
-    linkTitle: `${SITE.title} on Pinterest`,
-    active: true,
-  },
 ];
