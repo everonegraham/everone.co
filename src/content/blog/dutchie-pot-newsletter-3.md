@@ -1,6 +1,6 @@
 ---
 author: Everone Grahamm
-pubDatetime: 2023-01-29
+pubDatetime: 2023-01-29T16:30:05
 title: Dutchie Pot Newsletter 3 - Two-factor Authentication
 slug: dutchie-pot-newsletter-3-two-factor-authentication
 featured: false

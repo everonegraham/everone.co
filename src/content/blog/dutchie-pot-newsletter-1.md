@@ -1,6 +1,6 @@
 ---
 author: Everone Grahamm
-pubDatetime: 2022-10-16
+pubDatetime: 2022-10-16T12:55:08
 title: Dutchie Pot Newsletter 1 - NCSAM
 slug: dutchie-pot-newsletter-1-ncsam
 featured: false
@@ -11,6 +11,8 @@ tags:
   - dutchie-pot
 description: My first Dutchie Pot Newsletter entry on how to stay safer online.
 ---
+
+![ncsam](@assets/images/ncsam.png)
 
 > **Note!** This is a copy and paste of my newsletter entry that was originally posted on Revue (now deprecated).
 

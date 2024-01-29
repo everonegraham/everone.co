@@ -1,6 +1,6 @@
 ---
 author: Everone Grahamm
-pubDatetime: 2022-11-22
+pubDatetime: 2022-11-22T15:07:55
 title: Dutchie Pot Newsletter 2 - Password Managers
 slug: dutchie-pot-newsletter-2-password-managers
 featured: false
@@ -11,6 +11,8 @@ tags:
   - dutchie-pot
 description: My second Dutchie Pot Newsletter entry on Password Managers.
 ---
+
+![password-managers](@assets/images/password-managers.png)
 
 > **Note!** This is a copy and paste of my newsletter entry that was originally posted on Revue (now deprecated).
 
