@@ -42,7 +42,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        Welcome! It seems you've stumbled upon my personal courtyard on the internet. Here, I muse about things I find interesting. Drop by and take a look around every now an again.😊
+        Welcome! It seems you've stumbled upon my personal courtyard on the
+        internet. Here, I muse about things I find interesting. Drop by and take
+        a look around every now an again.😊
       </p>
       {
         // only display if at least one social link is enabled
@@ -65,7 +67,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
-                  href={`/posts/${slug}`}
+                  href={`/posts/${slug}/`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -86,7 +88,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               ({ data, slug }, index) =>
                 index < 4 && (
                   <Card
-                    href={`/posts/${slug}`}
+                    href={`/posts/${slug}/`}
                     frontmatter={data}
                     secHeading={false}
                   />
@@ -98,7 +100,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     }
 
     <div class="all-posts-btn-wrapper">
-      <LinkButton href="/posts">
+      <LinkButton href="/posts/">
         All Posts
         <svg xmlns="http://www.w3.org/2000/svg"
           ><path
