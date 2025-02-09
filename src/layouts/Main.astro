@@ -23,7 +23,7 @@ const { props } = Astro;
     "titleTransition" in props ? (
       <h1>
         {props.pageTitle[0]}
-        <span transition:name={props.titleTransition}>
+        <span data-astro-transition-name={props.titleTransition}>
           {props.pageTitle[1]}
         </span>
       </h1>

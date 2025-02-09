@@ -1,4 +1,5 @@
 ---
+type: content_layer
 author: Everone Grahamm
 pubDatetime: 2022-11-22T15:07:55
 title: Dutchie Pot Newsletter 2 - Password Managers
@@ -22,16 +23,16 @@ So, what is a Password Manager? Simply put, it is an application that can assist
 
 > _Note: Please stop using your personal information for security questions._
 
-Okay, so which password manger do I use? Well, I use [Bitwarden](https://bitwarden.com/). It is free and open sourced. This means, anyone can go take and look at the underlying codebase for bugs and issues if they wished to. Why does this matter, though? Well, with more eyes on the codebase, then there is a greater opportunity to discover issues and help them fix it. Though it is free, I have opt'ed for the premium plan, which is only $10 per year. You can get some additional features on the paid plan, but most of the features you will need are in the free tier. You can take a look at their different plans [here](https://bitwarden.com/pricing/).
+Okay, so which password manger do I use? Well, I use [Bitwarden](https://bitwarden.com/). It is free and open sourced. This means, anyone can go take and look at the underlying codebase for bugs and issues if they wished to. Why does this matter, though? Well, with more eyes on the codebase, then there is a greater opportunity to discover issues and help them fix it. Though it is free, I have opt'ed for the premium plan, which is only $10 per year. You can get some additional features on the paid plan, but most of the features you will need are in the free tier. You can take a look at their different plans [here](https://bitwarden.com/pricing/).
 
-Rather than going over how to get it setup, feel free to check this [YouTube video](https://www.youtube.com/watch?v=_hphFkR27bc) by [Password Bits](https://www.youtube.com/channel/UCo94Pg83Ko0VtoFy7DXlfLQ). It is a very comprehensive video on how to get started with Bitwarden.
+Rather than going over how to get it setup, feel free to check this [YouTube video](https://www.youtube.com/watch?v=_hphFkR27bc) by [Password Bits](https://www.youtube.com/channel/UCo94Pg83Ko0VtoFy7DXlfLQ). It is a very comprehensive video on how to get started with Bitwarden.
 
 Here are a few other password managers that, I think, are pretty great:
 
-- [1Password](https://1password.com/) (14 day free trial)
-- [Lastpass](https://www.lastpass.com/) (Free tier is available for personal use)
-- [Dashlane](https://www.dashlane.com/) (Free tier is available for personal use)
-- [Keepass](https://keepass.info/) / [KeepassXC](https://keepassxc.org/) (Free and open source. They are offline based, but you can sync your password database with Google Drive, Dropbox, OneDrive etc.)
+- [1Password](https://1password.com/) (14 day free trial)
+- [Lastpass](https://www.lastpass.com/) (Free tier is available for personal use)
+- [Dashlane](https://www.dashlane.com/) (Free tier is available for personal use)
+- [Keepass](https://keepass.info/) / [KeepassXC](https://keepassxc.org/) (Free and open source. They are offline based, but you can sync your password database with Google Drive, Dropbox, OneDrive etc.)
 
 There are many others out there, but be sure to do your due diligence before selecting one.
 

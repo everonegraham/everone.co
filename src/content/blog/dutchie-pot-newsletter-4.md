@@ -1,6 +1,7 @@
 ---
+type: content_layer
 author: Everone Grahamm
-pubDatetime: 2023-02-28T14:10:30
+pubDatetime: 2023-01-29T16:30:05
 title: Dutchie Pot Newsletter 4 - Security Keys
 slug: dutchie-pot-newsletter-4-security-keys
 featured: false
@@ -9,7 +10,7 @@ tags:
   - security-keys
   - newsletter
   - dutchie-pot
-description: My fourth Dutchie Pot Newsletter entry on Security Keys.
+description: My fourth Dutchie Pot Newsletter entry.
 ---
 
 ![two-factor-auth](@assets/images/security-keys.png)
