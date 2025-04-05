@@ -1,0 +1,29 @@
+---
+import { SITE } from "@/config";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/layouts/Main.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import ProjectCard from "@/components/ProjectCard.astro";
+
+// Import JSON directly
+import projectsData from "../data/projects/projects.json";
+
+// Sort projects by featured status
+const sortedProjects = [...projectsData].sort((a, b) => {
+  if (a.featured === b.featured) {
+    return 0;
+  }
+  return a.featured ? -1 : 1;
+});
+---
+
+<Layout title={`Projects | ${SITE.title}`}>
+  <Header activeNav="projects" />
+  <Main pageTitle="Projects" pageDesc="My most relevant side projects.">
+    <div class="flex flex-col gap-8 max-w-3xl mx-auto">
+      {sortedProjects.map(project => <ProjectCard {...project} />)}
+    </div>
+  </Main>
+  <Footer />
+</Layout> 

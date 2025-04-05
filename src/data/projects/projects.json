@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Jamaica Breaches",
+    "description": "A collection of security breaches that have happened in Jamaica.",
+    "link": "jamaicabreaches.com",
+    "icon": "🔓",
+    "featured": true,
+    "status": "live"
+  },
+
+  {
+    "title": "NEPA Watch",
+    "description": "Surfacing informattion and metrics around NEPA's Authority Decisions.",
+    "link": "nepawatch.com",
+    "icon": "🌲",
+    "featured": true,
+    "status": "live"
+  }
+] 

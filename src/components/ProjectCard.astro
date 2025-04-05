@@ -1,0 +1,60 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  link: string;
+  icon: string;
+  featured: boolean;
+  status: string;
+}
+
+const { title, description, link, icon, featured, status } = Astro.props;
+
+// Format link to ensure it has http:// or https:// prefix
+const formattedLink = link.startsWith('http') ? link : `https://${link}`;
+---
+
+<a 
+  href={formattedLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="group flex flex-col h-full p-6 border-2 border-skin-line rounded-lg 
+  transition-all duration-300 
+  bg-skin-card 
+  hover:border-skin-accent 
+  hover:shadow-xl
+  hover:translate-y-[-2px]
+  hover:bg-gradient-to-r hover:from-skin-card hover:to-skin-accent/10
+  relative overflow-hidden"
+>
+  <!-- Background highlight effect that appears on hover -->
+  <div class="absolute inset-0 bg-skin-accent opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
+
+  <div class="flex items-center justify-between mb-4 relative">
+    <div class="text-4xl" aria-hidden="true">{icon}</div>
+    {featured && (
+      <span class="px-3 py-1 text-xs font-medium rounded-full bg-skin-accent text-skin-inverted">
+        Featured
+      </span>
+    )}
+  </div>
+  
+  <h3 class="text-2xl font-bold mb-3 text-skin-accent group-hover:text-skin-accent relative">{title}</h3>
+  
+  <p class="text-skin-base mb-5 flex-grow relative">{description}</p>
+  
+  <div class="mt-auto flex items-center justify-between relative">
+    <span class="text-sm text-skin-muted">{link.replace(/^https?:\/\//, '')}</span>
+    {status === "live" ? (
+      <span class="flex items-center text-xs font-medium">
+        <span class="w-2 h-2 rounded-full bg-green-500 mr-1"></span>
+        Live
+      </span>
+    ) : (
+      <span class="flex items-center text-xs font-medium">
+        <span class="w-2 h-2 rounded-full bg-yellow-500 mr-1"></span>
+        {status}
+      </span>
+    )}
+  </div>
+</a> 
