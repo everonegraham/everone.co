@@ -13,7 +13,7 @@ tags:
 description: First time using Manus AI and of couse I'm using it to compare Jamaica and Singapore.
 ---
 
-![manus-ai](/src/assets/images/manus-ai.png)
+![manus-ai](../../assets/images/manus-ai.png)
 
 I finally got access to Manus AI today after signing up on the waiting list. I decided to test its research capabilities with a comparison between Jamaica and Singapore. So I crafted a nice prompt to get things going. Please see the prompt I used below:
 

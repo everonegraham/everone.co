@@ -13,7 +13,7 @@ tags:
 description: My third Dutchie Pot Newsletter entry.
 ---
 
-![two-factor-auth](/src/assets/images/two-factor-auth.png)
+![two-factor-auth](../../assets/images/two-factor-auth.png)
 
 > **Note!** This is a copy and paste of my newsletter entry that was originally posted on Substack. I have since removed my newsletter from Substack.
 

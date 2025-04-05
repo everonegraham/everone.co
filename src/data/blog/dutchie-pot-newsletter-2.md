@@ -13,7 +13,7 @@ tags:
 description: My second Dutchie Pot Newsletter entry on Password Managers.
 ---
 
-![password-managers](/src/assets/images/password-managers.png)
+![password-managers](/../../assets/images/password-managers.png)
 
 > **Note!** This is a copy and paste of my newsletter entry that was originally posted on Revue (now deprecated).
 
