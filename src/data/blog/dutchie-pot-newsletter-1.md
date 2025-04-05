@@ -13,7 +13,7 @@ tags:
 description: My first Dutchie Pot Newsletter entry on how to stay safer online.
 ---
 
-![ncsam](../../assets/images/ncsam.png)
+![ncsam](@/assets/images/ncsam.png)
 
 > **Note!** This is a copy and paste of my newsletter entry that was originally posted on Revue (now deprecated).
 

@@ -13,7 +13,7 @@ tags:
 description: First time using Manus AI and of couse I'm using it to compare Jamaica and Singapore.
 ---
 
-![manus-ai](../../assets/images/manus-ai.png)
+![manus-ai](@/assets/images/manus-ai.png)
 
 I finally got access to Manus AI today after signing up on the waiting list. I decided to test its research capabilities with a comparison between Jamaica and Singapore. So I crafted a nice prompt to get things going. Please see the prompt I used below:
 
@@ -42,6 +42,7 @@ Please include relevant data points and specific examples where possible.
 
 After sending in my prompt, and waited a few minutes, Manus AI produced it's completed output. Overall, it did a pretty good job adding key data points along the way and it pulled from some decent sources as well. Check it out.
 
+# Table of contents
 
 # Comparative Analysis of Jamaica and Singapore's Economic Development Models
 
