@@ -10,7 +10,7 @@ tags:
   - manus-ai
   - jamaica
   - singapore
-description: First time using Manus AI and of couse I'm using it to compare Jamaica and Singapore.
+description: First time using Manus AI and of course I'm using it to compare Jamaica and Singapore.
 ---
 
 ![manus-ai](@/assets/images/manus-ai.png)
